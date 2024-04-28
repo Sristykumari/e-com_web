@@ -1,0 +1,23 @@
+.allData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    /* height:70vh; */
+}
+.allData h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: #171717;
+}
+.allData hr{
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background: #252525;
+}
+.populer-item {
+    display: flex;
+    margin-top:30px;
+    gap: 16px;
+}
