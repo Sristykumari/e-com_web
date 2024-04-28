@@ -11,10 +11,10 @@ const Footer = () => {
                     <div className="">
                         <h6 className="footer-heading text-uppercase text-white">Information</h6>
                         <ul className="list-unstyled footer-link mt-4">
-                            <li><a href="">Pages</a></li>
-                            <li><a href="">Our Team</a></li>
-                            <li><a href="">Feuchers</a></li>
-                            <li><a href="">Pricing</a></li>
+                            <li><a href="#">Pages</a></li>
+                            <li><a href="#">Our Team</a></li>
+                            <li><a href="#">Feuchers</a></li>
+                            <li><a href="#">Pricing</a></li>
                         </ul>
                     </div>
                 </div>
@@ -22,10 +22,10 @@ const Footer = () => {
                     <div className="">
                         <h6 className="footer-heading text-uppercase text-white">Shopper</h6>
                         <ul className="list-unstyled footer-link mt-4">
-                            <li><a href="">Company </a></li>
-                            <li><a href="">Product</a></li>
-                            <li><a href="">Term &amp; Service</a></li>
-                            <li><a href="">About</a></li>
+                            <li><a href="#">Company </a></li>
+                            <li><a href="#">Product</a></li>
+                            <li><a href="#">Term &amp; Service</a></li>
+                            <li><a href="#">About</a></li>
                         </ul>
                     </div>
                 </div>
@@ -33,10 +33,10 @@ const Footer = () => {
                     <div className="">
                         <h6 className="footer-heading text-uppercase text-white">Help</h6>
                         <ul className="list-unstyled footer-link mt-4">
-                            <li><a href="">Sign Up </a></li>
-                            <li><a href="">Login</a></li>
-                            <li><a href="">Terms of Services</a></li>
-                            <li><a href="">Privacy Policy</a></li>
+                            <li><a href="#">Sign Up </a></li>
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Terms of Services</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>
                 </div>
