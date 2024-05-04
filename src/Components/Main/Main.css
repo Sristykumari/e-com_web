@@ -2,9 +2,13 @@
     top: 220px;
     left: 0;
 }
-.active{
-    height:600px;
+.w-100 {
+    width: 100% !important;
+    height: 527px;
 }
+/* .active{
+    height:100vh;
+} */
 h2{
     text-align: center;
     padding:15px;
@@ -125,9 +129,6 @@ h5{
     backdrop-filter: blur(10px);
 }
 
-.search input::placeholder{
-    color: #ffffff;
-}
 .search i{
    position: absolute;
    top:50%;

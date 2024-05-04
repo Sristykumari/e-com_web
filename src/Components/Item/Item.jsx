@@ -10,11 +10,17 @@ const Item = (props) => {
          <h4 className="product-title">{props.name}</h4>
          <div className="item-prices">
           <div className="item-prices-new">
-          {props.old_price}
+          {props.new_price}
           </div>
          </div>
           <div className="item-prices-old">
-          {props.new_price}
+          {props.old_price}
+          </div>
+          <div className="item-price">
+          {props.inStock ? <div>in stock</div> : <div>out of stock</div>}
+          </div>
+          <div className="item-price">
+          {props.delivery}
           </div>
     </div>
     </div>

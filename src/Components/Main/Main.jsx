@@ -52,7 +52,6 @@ const Main = () => {
             </div>
 
             <div className="main-left">
-                <div>
                     <div className="banner">
                         <div className="container">
                             <div className="row">
@@ -85,9 +84,8 @@ const Main = () => {
                     <Offers/>
                     <NewCollection/>
                     <NewsLetter/>
-                      
                     </div>
-                </div>
+           
             </div>
         </div>
     )

@@ -6,10 +6,10 @@
 }
 .loginsignup-container{
     width: 580px;
-    height: 600px;
+    height: 620px;
     background: #fff;
     margin: auto;
-    padding: 40px 60px;
+    padding: 10px 60px;
 
 }
 .loginsignup-container h1{
@@ -54,7 +54,7 @@
 }
 .loginsignup-agree{
     display: flex;
-    margin-top: 25px;
+    margin-top: 5px;
     align-items: baseline;
     gap: 20px;
     color: #5c5c5c;
