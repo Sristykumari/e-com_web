@@ -30,3 +30,64 @@ h4{
 .item-prices-new{
     font-size: 17px;
 }
+
+@media(max-width:1280px){
+    .newCollection{
+      padding: 9px 0px;
+    }
+    .newCollection h1{
+      font-size: 40px;
+  }
+  .newCollection hr{
+      width: 160pxx;
+      height: 4px;
+  }
+  .collections {
+      margin-top:30px;
+      gap: 20px;
+  }
+  }
+  @media(max-width:1024px){
+      .newCollection{
+        padding:9px 0px;
+      }
+      .newCollection h1{
+        font-size: 30px;
+    }
+    .newCollection hr{
+        width: 120pxx;
+        height: 3px;
+    }
+    .collections {
+      margin-top:20px;
+      gap: 15px;
+     }
+    }
+    @media(max-width:800px){
+      .newCollection{
+        padding: 9px 0px;
+        height:50vh;
+        gap: 6px;
+      }
+      .newCollection h1{
+        font-size:20px;
+    }
+    .newCollection hr{
+        width: 100pxx;
+        height: 2px;
+    }
+    .collections {
+      gap: 6px;
+     }
+    }
+    @media(max-width:500px){
+      .newCollection{
+        padding: 9px 0px;
+          height:90vh;
+        }
+        .collections {
+         display: grid;
+         grid-template-columns: 1fr 1fr;
+         gap: 20px;
+         }
+    }
